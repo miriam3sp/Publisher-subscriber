@@ -1,0 +1,6 @@
+<launch>
+    <param name="joint" type="str" value="joint1" />
+    <node name="publisher_node" pkg="sensor_pkg" type="publisher_node" output="screen"/>
+    <node name="subscriber_node" pkg="sensor_pkg" type="subscriber_node" output="screen"/>
+
+</launch>
