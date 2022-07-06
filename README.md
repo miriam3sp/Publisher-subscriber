@@ -1,11 +1,11 @@
 # Publisher-subscriber
 
-1.Copy packages to your workspace and build them:
+1. Copy packages to your workspace and build them:
 
-catkin build
+   catkin build
 
-source devel/setup.bash
+   source devel/setup.bash
 
-2.Launch launch file:
+2. Launch launch file:
 
-roslaunch sensor_pkg mylaunch.launch
+   roslaunch sensor_pkg mylaunch.launch
